@@ -19,6 +19,7 @@
 
 어쨌든 좀 빠르게 학습해야할 것 같은 예감이 들었다. 한 1주일 걸릴 것 같은데...
 
+```
 ;prototype
 ;size_t		strlen(const char *s);
 
@@ -33,3 +34,4 @@ _ft_strlen:				;tells linker entry point(C calling convention)
 	mov	rax, 0			;initialize rax value, rax will be return value
 	jmp _count			;(forced)branch instruction
 
+```
